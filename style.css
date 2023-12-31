@@ -15,12 +15,12 @@ html{
     font-family: 'Pacifico' , cursive;
     font-size: 100px;
     font-weight: 700;
-    color: #f48fd1;
+    color: #e876c0;
     text-align: center;
     position: absolute;
     top: 50%;
     opacity: 0;
-animation: vem_happy 2s ease-in-out;
+animation: vem_happy 5s ease-in-out;
 }
 .sec1{
     position: absolute;
