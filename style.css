@@ -39,7 +39,7 @@ animation: vem_happy 2s ease-in-out;
     font-family: 'Montserrat', sans-serif;
     font-size: 175px;
     font-weight: 700;
-    color:#7a8fe8;
+    color:#6473b9;
 }
 span.current{
     position: absolute;
@@ -74,7 +74,7 @@ span.next{
     width: 100px;
     height: 100px;
     display: block;
-    background: yellow;
+    background: rgb(222, 222, 45);
     border-radius: 50%;
     position: absolute;
     top:50%;
@@ -102,7 +102,7 @@ span.next{
     width: 4px;
     height: 100px;
     display: block;
-    background: #fff;
+    background: #f29999;
    border-radius: 0px 0px 3px 3px;
     
     position: absolute;
@@ -121,7 +121,7 @@ span.next{
     overflow: hidden;
   }
   .fire>div{
-    border: 2px solid #fff;
+    border: 2px solid #9c6262;
     position: absolute;
     opacity: 0;
     animation: solta_fire 1.5s ease-in-out 8s forwards;
@@ -207,7 +207,7 @@ span.next{
     font-size: 12px;
     text-decoration: none;
     color: #f47c7c;
-    position: fixed;
+    position: static;
     bottom: 10px;
     right: 10px;
   }
@@ -316,4 +316,26 @@ span.next{
       100% {
         opacity: 1;
       }
+    }
+    .author{
+        position: fixed;
+        left: 40%;
+        top: 280px;
+        font-size: 25px;
+        animation: text 1s infinite alternate 1s;
+        
+    }
+    @keyframes text{
+        0%{
+            color: rgb(111, 30, 240);
+        }
+        25%{
+            color: rgb(236, 31, 31);
+        }
+        70%{
+            color: #0df309;
+        }
+        100%{
+            color: #4c4002;
+        }
     }
